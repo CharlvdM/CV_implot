@@ -22,6 +22,12 @@
 
 // ImPlot v0.13 WIP
 
+// Disable the GCC warnings
+#if defined(__GNUG__)
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdouble-promotion"
+#endif
+
 #include "implot.h"
 #include "implot_internal.h"
 

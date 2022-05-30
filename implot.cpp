@@ -108,6 +108,14 @@ You can read releases logs https://github.com/epezent/implot/releases for more d
 
 */
 
+// Disable the GCC warnings
+#if defined(__GNUG__)
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wcast-qual"
+#pragma GCC diagnostic ignored "-Wformat="
+#pragma GCC diagnostic ignored "-Wimplicit-fallthrough="
+#endif
+
 #include "implot.h"
 #include "implot_internal.h"
 

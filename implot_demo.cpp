@@ -22,6 +22,14 @@
 
 // ImPlot v0.13 WIP
 
+// Disable the GCC warnings
+#if defined(__GNUG__)
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdouble-promotion"
+#pragma GCC diagnostic ignored "-Wconversion"
+#pragma GCC diagnostic ignored "-Wcast-qual"
+#endif
+
 // We define this so that the demo does not accidentally use deprecated API
 #define IMPLOT_DISABLE_OBSOLETE_FUNCTIONS
 
