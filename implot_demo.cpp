@@ -29,6 +29,7 @@
 #pragma GCC diagnostic ignored "-Wconversion"
 #pragma GCC diagnostic ignored "-Wcast-qual"
 #pragma GCC diagnostic ignored "-Wfloat-conversion"
+#pragma GCC diagnostic ignored "-Wmissing-declarations"
 #endif
 
 // We define this so that the demo does not accidentally use deprecated API
