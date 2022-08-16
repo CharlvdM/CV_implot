@@ -128,6 +128,7 @@ You can read releases logs https://github.com/epezent/implot/releases for more d
 #pragma GCC diagnostic ignored "-Wcast-qual"
 #pragma GCC diagnostic ignored "-Wformat="
 #pragma GCC diagnostic ignored "-Wimplicit-fallthrough="
+#pragma GCC diagnostic ignored "-Wmissing-declarations"
 #endif
 
 #include "implot.h"
