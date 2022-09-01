@@ -26,6 +26,7 @@
 #if defined(__GNUG__)
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdouble-promotion"
+#pragma GCC diagnostic ignored "-Wmissing-declarations"
 #endif
 
 #include "implot.h"
