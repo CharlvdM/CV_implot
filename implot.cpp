@@ -122,6 +122,8 @@ You can read releases logs https://github.com/epezent/implot/releases for more d
 
 */
 
+#define IMGUI_DEFINE_MATH_OPERATORS
+
 // Disable the GCC warnings
 #if defined(__GNUG__)
 #pragma GCC diagnostic push
